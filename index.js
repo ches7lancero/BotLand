@@ -7,9 +7,9 @@ bot.on('ready', () => {
     bot.user.setPresence({
         activity: {
             type: "WATCHING",
-            name: `Over Alpha Builders Group: ${bot.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} Members`
+            name: `Over Bot Land: ${bot.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} Members`
         }
     });
 });
 
-bot.login(process.env.token);
+client.login(process.env.token);
