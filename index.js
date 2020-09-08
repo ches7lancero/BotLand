@@ -12,4 +12,4 @@ bot.on('ready', () => {
     });
 });
 
-client.login(process.env.token);
+bot.login(process.env.token);
